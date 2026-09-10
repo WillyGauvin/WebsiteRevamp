@@ -1,9 +1,9 @@
 <nav class="navbar">
-  <a href="/">Will Gauvin</a>
+  <a href="{{ '/' | relative_url }}">Will Gauvin</a>
   <button class="nav-toggle" aria-expanded="false" onclick="toggleNav()">☰</button>
   <ul class="nav-links" data-open="false">
-    <li><a class="career" href="/pages/career.html">CAREER</a></li>
-    <li><a class="jams" href="/pages/jams.html">JAMS</a></li>
-    <li><a class="passion" href="/pages/passion.html">PASSION</a></li>
+    <li><a class="career" href="{{ '/pages/career.html' | relative_url }}">CAREER</a></li>
+    <li><a class="jams" href="{{ '/pages/jams.html' | relative_url }}">JAMS</a></li>
+    <li><a class="passion" href="{{ '/pages/passion.html' | relative_url }}">PASSION</a></li>
   </ul>
 </nav>
